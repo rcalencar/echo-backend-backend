@@ -1,0 +1,8 @@
+{
+  "name": "echo-backend-backend",
+  "description": "echo-backend-backend",
+  "website": "https://github.com/rcalencar/echo-backend-backend",
+  "repository": "https://github.com/rcalencar/echo-backend-backend",
+  "image": "heroku/java",
+  "addons": []
+}
