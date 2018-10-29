@@ -13,6 +13,7 @@ public class EMRMainController {
 
 	@RequestMapping("/echo")
 	public Echo echo(@RequestParam(value = "value", defaultValue = "OK") String value) {
+		logger.debug(value);
 		return new Echo(value);
 	}
 }
